@@ -28,7 +28,8 @@ void mqttTask( void * pvParameters ) {
     delay(100);<br>
  # Monitoramento e Logging
  O referido projeto consta com uma [infraestrutura em nuvem](https://www.redhat.com/pt-br/topics/cloud-computing/what-is-cloud-infrastructure) que possibilita o monitoramento e controle remoto dos contêineres mensurados, via internet, através de um navegador em um PC ou smartphone. Os serviços disponíveis através de uma [instância EC2](https://aws.amazon.com/pt/ec2/) do [tipo t2.micro](https://aws.amazon.com/pt/ec2/instance-types/t2/) onde estão virtualizados os serviços através de [containers Docker](https://docs.docker.com/). Os serviços instalados são:
- Servidor 
+ Servidor <br>
+ Servidor [Node-RED v3.0.2](https://hub.docker.com/r/nodered/node-red/) <br>
     
 
 
