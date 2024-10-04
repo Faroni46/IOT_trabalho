@@ -36,7 +36,8 @@ http://54.172.232.108:1880/#flow/80794394386acbb8
 # Simulação do Circuito
 Os circuitos estão simulados na plataforma [Wokwi](https://wokwi.com/) e cada um dos módulos pode ser acessado nos links abaixo:<br>
 [Unidade de Monitoramento](http://54.172.232.108:1880/ui/) <br>
-[Unidade de Simulação](https://wokwi.com/projects/410688670007925761)
+[Unidade de Simulação](https://wokwi.com/projects/410688670007925761)<br>
+
 
 
     
