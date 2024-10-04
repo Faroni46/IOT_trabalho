@@ -31,8 +31,8 @@ void mqttTask( void * pvParameters ) {
  Servidor <br>
  Servidor [Node-RED v3.0.2](https://hub.docker.com/r/nodered/node-red/) <br>
 Com o Node-RED é possível monitorar a comunicação entre os componentes IoT que compõem o projeto, registrar as leituras em bancos de dados SQL e fornecer um [painel de monitoramento e comando (dashboard)](http://54.172.232.108:1880/ui/). <br>
-Agora o fluxo Node -RED implementado pode ser obtido neste [Gist](http://54.172.232.108:1880/#flow/80794394386acbb8) , cuja representação na interface da plataforma se parece com a captura de tela <br>
-
+Agora o fluxo Node -RED implementado pode ser obtido neste [Gist](http://54.172.232.108:1880/#flow/80794394386acbb8) , cuja representação na interface da plataforma se parece com a captura da tela <br>
+http://54.172.232.108:1880/#flow/80794394386acbb8
 
     
 
