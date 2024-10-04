@@ -25,7 +25,7 @@ void mqttTask( void * pvParameters ) {
     client.publish("esp32/gas", String(gas).c_str());<br>
     client.loop();<br>
     delay(100);<br>
-    #Monitoramento e Logging
+ # Monitoramento e Logging
     
 
 
