@@ -26,6 +26,7 @@ void mqttTask( void * pvParameters ) {
     client.loop();<br>
     delay(100);<br>
  # Monitoramento e Logging
+ Este projeto conta com uma infraestrutura em nuvem que possibilita o monitoramento e controle remoto dos contêineres mensurados, via internet, através de um navegador em um PC ou smartphone. Os serviços disponíveis através de uma instância EC2 do tipo t2.micro onde estão virtualizados os serviços através de containers Docker. Os serviços instalados são
     
 
 
