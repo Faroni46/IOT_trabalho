@@ -34,7 +34,9 @@ Com o Node-RED é possível monitorar a comunicação entre os componentes IoT q
 Agora o fluxo Node -RED implementado pode ser obtido neste [Gist](http://54.172.232.108:1880/#flow/80794394386acbb8) , cuja representação na interface da plataforma se parece com a captura da tela 
 http://54.172.232.108:1880/#flow/80794394386acbb8
 # Simulação do Circuito
-Os circuitos estão simulados na plataforma [Wokwi](https://wokwi.com/) e cada um dos módulos pode ser acessado nos links abaixo
+Os circuitos estão simulados na plataforma [Wokwi](https://wokwi.com/) e cada um dos módulos pode ser acessado nos links abaixo:<br>
+[Unidade de Monitoramento](http://54.172.232.108:1880/ui/) <br>
+[Unidade de Simulação](https://wokwi.com/projects/410688670007925761)
 
 
     
