@@ -1,2 +1,2 @@
-# IOT_trabalho
-Temp_Hum_Gas
+# IOT_trabalho_Sensor
+Temperatura, Humidade, Gas
