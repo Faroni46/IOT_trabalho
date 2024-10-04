@@ -1,3 +1,5 @@
+Bibliotecas
+(https://wokwi.com/projects/410688670007925761)
 # Iot_Trabalho_Sensores
 Temperatura, Humidade, Gás
 >Projeto de trabalho de conclusão da disciplina de Plataformas de Prototipação para IoT (E2PPT) IFSP CTD.
@@ -27,6 +29,7 @@ void mqttTask( void * pvParameters ) {
     delay(100);<br>
  # Monitoramento e Logging
  O referido projeto consta com uma [infraestrutura em nuvem](https://www.redhat.com/pt-br/topics/cloud-computing/what-is-cloud-infrastructure) que possibilita o monitoramento e controle remoto dos contêineres mensurados, via internet, através de um navegador em um PC ou smartphone. Os serviços disponíveis através de uma [instância EC2](https://aws.amazon.com/pt/ec2/) do [tipo t2.micro](https://aws.amazon.com/pt/ec2/instance-types/t2/) onde estão virtualizados os serviços através de [containers Docker](https://docs.docker.com/). Os serviços instalados são:
+ Servidor 
     
 
 
