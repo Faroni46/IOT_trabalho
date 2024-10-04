@@ -8,5 +8,7 @@ Este projeto consitutui de medidores de IoT de temperatura, gás e umidade que e
 1 x LED (red) indicação de conectado <br>
 1 x Sensor de Umidade e Temperatura DHT22 <br>
 1 x Potentiometer <br>
+![image](https://github.com/user-attachments/assets/a0c0f7a6-b3bf-407c-b9fe-e42fbd92d29e)
+
 
 
