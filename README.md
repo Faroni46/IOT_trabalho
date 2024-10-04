@@ -11,7 +11,8 @@ Este projeto consitutui de medidores de IoT de temperatura, gás e umidade que e
 
 ![image](https://github.com/user-attachments/assets/a0c0f7a6-b3bf-407c-b9fe-e42fbd92d29e) <br>
 # Funcionamento
-![image](https://github.com/user-attachments/assets/f7baafe8-1dc5-49a5-b141-920154940ac3)
+
+
 
 
 
