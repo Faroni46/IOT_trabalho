@@ -14,16 +14,16 @@ Este projeto consitutui de medidores de IoT de temperatura, gás e umidade que e
 MQTT<br>
 WiFiClient espClient;<br>
 PubSubClient client(espClient);<br>
-create a task that will be executed in the Task1code() function, with priority 1 and executed on core 0
+create a task that will be executed in the Task1code() function, with priority 1 and executed on core 0<br>
   xTaskCreatePinnedToCore(
-    mqttTask,   /* Task function. */
-    "Task0",     /* name of task. */
-    10000,       /* Stack size of task */
-    NULL,        /* parameter of the task */
-    1,           /* priority of the task */
-    &Task0,      /* Task handle to keep track of created task */
-    1);          /* pin task to core 0 */
-  delay(500);
+    mqttTask,   /* Task function. */<br>
+    "Task0",     /* name of task. */<br>
+    10000,       /* Stack size of task */<br>
+    NULL,        /* parameter of the task */<br>
+    1,           /* priority of the task */<br>
+    &Task0,      /* Task handle to keep track of created task */<br>
+    1);          /* pin task to core 0 */<br>
+  delay(500);<br>
 
 
 
