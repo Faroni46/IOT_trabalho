@@ -1,4 +1,5 @@
 [Bibliotecas](https://wokwi.com/projects/410688670007925761)<br>
+git clone <https://github.com/Faroni46/IOT_trabalho.git>
 # Iot_Trabalho_Sensores
 Temperatura, Umidade, Gás
 >Projeto de trabalho de conclusão da disciplina de Plataformas de Prototipação para IoT (E2PPT) IFSP CTD.
