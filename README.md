@@ -3,7 +3,7 @@
 Temperatura, Umidade, Gás
 >Projeto de trabalho de conclusão da disciplina de Plataformas de Prototipação para IoT (E2PPT) IFSP CTD.
 # Visão Geral
-Este projeto consitutui de medidores de IoT de temperatura, gás e umidade que estão sendo usados nos dispositivos conectados para monitoramento remoto em tempo real. Através desta coleta de dados que está sendo realida neste monitoramento quando o dispositivo atingir um nivel acima de 50 sera emitido um alerta para tomar as devidas providencias para solucionar possíveis problemas. E estes dados que são originados nos sensores são publicados em um tópico via MQTT. 
+Este projeto consitutui de medidores de IoT de Temperatura, Gás e Umidade que estão sendo usados nos dispositivos conectados para monitoramento remoto em tempo real. Através desta coleta de dados que está sendo realida neste monitoramento quando o dispositivo atingir um nivel acima de 50 sera emitido um alerta para tomar as devidas providencias para solucionar possíveis problemas. E estes dados que são originados nos sensores são publicados em um tópico via MQTT. 
 # Quais equipamentos são utilizados
 1 x ESP32 WROOM Devkit V1 <br>
 1 x LED (red) indicação de conectado <br>
@@ -27,10 +27,11 @@ void mqttTask( void * pvParameters ) {
     client.loop();<br>
     delay(100);<br>
  # Monitoramento e Logging
- O referido projeto consta com uma [infraestrutura em nuvem](https://www.redhat.com/pt-br/topics/cloud-computing/what-is-cloud-infrastructure) que possibilita o monitoramento e controle remoto dos contêineres mensurados, via internet, através de um navegador em um PC ou smartphone. Os serviços disponíveis através de uma [instância EC2](https://aws.amazon.com/pt/ec2/) do [tipo t2.micro](https://aws.amazon.com/pt/ec2/instance-types/t2/) onde estão virtualizados os serviços através de [containers Docker](https://docs.docker.com/). Os serviços instalados são:<br>
+ O referido projeto consta com uma [infraestrutura em nuvem](https://www.redhat.com/pt-br/topics/cloud-computing/what-is-cloud-infrastructure) que possibilita o monitoramento e controle remoto dos contêineres mensurados sendo via internet através de um navegador em um PC ou smartphone. Os serviços disponíveis através de uma [instância EC2](https://aws.amazon.com/pt/ec2/) do [tipo t2.micro](https://aws.amazon.com/pt/ec2/instance-types/t2/) onde estão virtualizados os serviços através de [containers Docker](https://docs.docker.com/). Os serviços instalados são:<br>
  Servidor [MySQL](https://www.mysql.com/) <br>
  Servidor [Eclipse Mosquitto](https://hub.docker.com/_/eclipse-mosquitto) v2.0.15<br>
  Servidor [Node-RED v3.0.2](https://hub.docker.com/r/nodered/node-red/) <br>
+ Servidor [Apache HTTP Server Project](https://httpd.apache.org/download.cgi)
 Com o Node-RED é possível monitorar a comunicação entre os componentes IoT que compõem o projeto, registrar as leituras em bancos de dados SQL e fornecer um [painel de monitoramento e comando (dashboard)](http://54.172.232.108:1880/ui/). <br>
 Agora o fluxo Node -RED implementado pode ser obtido neste [Gist](http://54.172.232.108:1880/#flow/80794394386acbb8) , cuja representação na interface da plataforma se parece com a captura da tela 
 http://54.172.232.108:1880/#flow/80794394386acbb8
