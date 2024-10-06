@@ -29,6 +29,7 @@ void mqttTask( void * pvParameters ) {
  # Monitoramento e Logging
  O referido projeto consta com uma [infraestrutura em nuvem](https://www.redhat.com/pt-br/topics/cloud-computing/what-is-cloud-infrastructure) que possibilita o monitoramento e controle remoto dos contêineres mensurados, via internet, através de um navegador em um PC ou smartphone. Os serviços disponíveis através de uma [instância EC2](https://aws.amazon.com/pt/ec2/) do [tipo t2.micro](https://aws.amazon.com/pt/ec2/instance-types/t2/) onde estão virtualizados os serviços através de [containers Docker](https://docs.docker.com/). Os serviços instalados são:<br>
  Servidor SQL <br>
+ Servidor [Eclipse Mosquitto](https://hub.docker.com/_/eclipse-mosquitto) v2.0.15
  Servidor [Node-RED v3.0.2](https://hub.docker.com/r/nodered/node-red/) <br>
 Com o Node-RED é possível monitorar a comunicação entre os componentes IoT que compõem o projeto, registrar as leituras em bancos de dados SQL e fornecer um [painel de monitoramento e comando (dashboard)](http://54.172.232.108:1880/ui/). <br>
 Agora o fluxo Node -RED implementado pode ser obtido neste [Gist](http://54.172.232.108:1880/#flow/80794394386acbb8) , cuja representação na interface da plataforma se parece com a captura da tela 
