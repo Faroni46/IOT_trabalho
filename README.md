@@ -9,7 +9,7 @@ Este projeto consitutui de medidores de IoT de Temperatura, Gás e Umidade que e
 1 x LED (red) indicação de conectado <br>
 1 x Sensor de Umidade e Temperatura DHT22 <br>
 1 x Potentiometer <br>
-![image](https://github.com/user-attachments/assets/a0c0f7a6-b3bf-407c-b9fe-e42fbd92d29e) <br>
+![image]![IMG_20241007_152207150(1)(1)](https://github.com/user-attachments/assets/28db6c97-d511-4f9e-aec6-db219a8403ce) <br>
 # Topicos do MQTT
 MQTT<br>
 WiFiClient espClient;<br>
