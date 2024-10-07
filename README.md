@@ -35,9 +35,9 @@ void mqttTask( void * pvParameters ) {
 Com o Node-RED é possível monitorar a comunicação entre os componentes IoT que compõem o projeto, registrar as leituras em bancos de dados MySQL e fornecer os dados como mostra a seguir: <br>
 ![image](https://github.com/user-attachments/assets/e8f36a88-968a-42e2-90fe-d330dd658485)
 
-
-
 ![image](https://github.com/user-attachments/assets/9812d1d7-b37d-4449-9ef0-c4f3fafc4aad)<br>
+![image](https://github.com/user-attachments/assets/4e37f229-25a7-46a8-aef0-b0d5657f4e6c)
+
 
 Agora o fluxo Node -RED implementado pode ser obtido neste [Gist](http://54.172.232.108:1880/#flow/80794394386acbb8) , cuja representação na interface da plataforma se parece com a captura da tela 
 http://54.172.232.108:1880/#flow/80794394386acbb8
