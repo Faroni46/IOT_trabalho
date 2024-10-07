@@ -34,7 +34,7 @@ void mqttTask( void * pvParameters ) {
  Servidor [Apache HTTP Server Project](https://httpd.apache.org/download.cgi)<br>
 Com o Node-RED é possível monitorar a comunicação entre os componentes IoT que compõem o projeto, registrar as leituras em bancos de dados MySQL e fornecer os dados como mostra a seguir: <br>
 ![image](https://i.sstatic.net/ScBty.png) <br>
-![image](![download](https://github.com/user-attachments/assets/)<br>
+![image](![download](https://github.com/user-attachments/assets/e85b87a3-347c-4f35-8298-d05ad85fbb77)<br>
 Agora o fluxo Node -RED implementado pode ser obtido neste [Gist](http://54.172.232.108:1880/#flow/80794394386acbb8) , cuja representação na interface da plataforma se parece com a captura da tela 
 http://54.172.232.108:1880/#flow/80794394386acbb8
 # Simulação do Circuito
