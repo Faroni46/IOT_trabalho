@@ -8,7 +8,7 @@ Este projeto consitutui de medidores de IoT de Temperatura, Gás e Umidade que e
 1 x ESP32 WROOM Devkit V1 <br>
 1 x LED (red) indicação de conectado <br>
 1 x Sensor de Umidade e Temperatura DHT22 <br>
-1 x Potentiometer <br>
+1 x Potenciômetro <br>
 
 ![image](https://github.com/user-attachments/assets/28db6c97-d511-4f9e-aec6-db219a8403ce) <br>
 
