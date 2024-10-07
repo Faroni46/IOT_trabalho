@@ -32,7 +32,7 @@ void mqttTask( void * pvParameters ) {
  Servidor [Eclipse Mosquitto](https://mosquitto.org/download/)<br>
  Servidor [Node-RED v3.0.2](https://hub.docker.com/r/nodered/node-red/) <br>
  Servidor [Apache HTTP Server Project](https://httpd.apache.org/download.cgi)<br>
-Com o Node-RED é possível monitorar a comunicação entre os componentes IoT que compõem o projeto, registrar as leituras em bancos de dados MySQL e fornecer um ![image](https://i.sstatic.net/ScBty.png) [painel de monitoramento e comando (dashboard)](http://54.172.232.108:1880/ui/#!/0?socketid=hmuC3YyTJUfVylQFAACB). <br>
+Com o Node-RED é possível monitorar a comunicação entre os componentes IoT que compõem o projeto, registrar as leituras em bancos de dados MySQL e fornecer os dados como mostra a seguir ![image](https://i.sstatic.net/ScBty.png) <br>
 Agora o fluxo Node -RED implementado pode ser obtido neste [Gist](http://54.172.232.108:1880/#flow/80794394386acbb8) , cuja representação na interface da plataforma se parece com a captura da tela 
 http://54.172.232.108:1880/#flow/80794394386acbb8
 # Simulação do Circuito
