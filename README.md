@@ -37,7 +37,7 @@ Com o Node-RED é possível monitorar a comunicação entre os componentes IoT q
 
 
 
-![image](![download (1)](https://github.com/user-attachments/assets/9812d1d7-b37d-4449-9ef0-c4f3fafc4aad)<br>
+![image](https://github.com/user-attachments/assets/9812d1d7-b37d-4449-9ef0-c4f3fafc4aad)<br>
 
 Agora o fluxo Node -RED implementado pode ser obtido neste [Gist](http://54.172.232.108:1880/#flow/80794394386acbb8) , cuja representação na interface da plataforma se parece com a captura da tela 
 http://54.172.232.108:1880/#flow/80794394386acbb8
