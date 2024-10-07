@@ -37,7 +37,7 @@ Com o MQTT_IOT em conjunto com MySQL é possível monitorar a comunicação entr
 ![image](https://github.com/user-attachments/assets/4e37f229-25a7-46a8-aef0-b0d5657f4e6c)<br>
 
 Agora o fluxo Node -RED implementado pode ser obtido neste [Gist](http://54.172.232.108:1880/#flow/80794394386acbb8) , cuja representação na interface da plataforma se parece com a captura da tela 
-![image]![IMG_20241007_141956288(1)(1)](https://github.com/user-attachments/assets/2cfacd97-7d88-4d85-bf6d-d1bd1b648b34)
+[IMG_20241007_141956288(1)(1)](https://github.com/user-attachments/assets/2cfacd97-7d88-4d85-bf6d-d1bd1b648b34)
 # Simulação do Circuito
 Os circuitos estão simulados na plataforma [Wokwi](https://wokwi.com/) e cada um dos módulos pode ser acessado nos links abaixo:<br>
 [Unidade de Monitoramento](http://54.172.232.108:1880/ui/) <br>
