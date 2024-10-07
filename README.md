@@ -33,7 +33,8 @@ void mqttTask( void * pvParameters ) {
  Servidor [Node-RED v3.0.2](https://hub.docker.com/r/nodered/node-red/) <br>
  Servidor [Apache HTTP Server Project](https://httpd.apache.org/download.cgi)<br>
 Com o Node-RED é possível monitorar a comunicação entre os componentes IoT que compõem o projeto, registrar as leituras em bancos de dados MySQL e fornecer os dados como mostra a seguir: <br>
-[![image]](https://github.com/user-attachments/assets/eb34397c-3ef1-49a4-8cfc-3a17ef3bee8c)
+![image](![IMG_20241007_141757216(1)(1)](https://github.com/user-attachments/assets/e8f36a88-968a-42e2-90fe-d330dd658485)
+
 
 
 ![image](![download](https://github.com/user-attachments/assets/e85b87a3-347c-4f35-8298-d05ad85fbb77)<br>
