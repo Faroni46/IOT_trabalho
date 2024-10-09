@@ -42,7 +42,7 @@ Agora o fluxo Node -RED implementado pode ser obtido neste [Gist](http://3.83.10
 ![image](https://github.com/user-attachments/assets/2cfacd97-7d88-4d85-bf6d-d1bd1b648b34)
 # Simulação do Circuito
 Os circuitos estão simulados na plataforma [Wokwi](https://wokwi.com/) e cada um dos módulos pode ser acessado nos links abaixo:<br>
-[Unidade de Monitoramento](http://54.172.232.108:1880/ui/) <br>
+[Unidade de Monitoramento](http://3.83.102.68:1880/ui) <br>
 [Unidade de Simulação](https://wokwi.com/projects/410688670007925761)<br>
 
 
