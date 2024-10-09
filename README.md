@@ -35,7 +35,7 @@ void mqttTask( void * pvParameters ) {
  Servidor [Apache HTTP Server Project](https://httpd.apache.org/download.cgi)<br>
 Com o MQTT_IOT em conjunto com MySQL é possível monitorar a comunicação entre os componentes e também mostrar graficamente os dados para um melhor entendindo para analise como demonstrado a seguir: <br>
 ![image](https://github.com/user-attachments/assets/e8f36a88-968a-42e2-90fe-d330dd658485)<br>
-![image](![IMG_20241008_233648777(1)(1)](https://github.com/user-attachments/assets/5db60df0-9803-4eae-a947-afcf3f29ae67)<br>
+![image](https://github.com/user-attachments/assets/5db60df0-9803-4eae-a947-afcf3f29ae67)<br>
 ![image](https://github.com/user-attachments/assets/4e37f229-25a7-46a8-aef0-b0d5657f4e6c)<br>
 
 Agora o fluxo Node -RED implementado pode ser obtido neste [Gist](http://3.83.102.68:1880/#flow/80794394386acbb8) , cuja representação na interface da plataforma se parece com a captura da tela: 
