@@ -10,7 +10,10 @@ Este projeto consitutui de medidores de IoT de Temperatura, Gás e Umidade que e
 1 x Sensor de Umidade e Temperatura DHT22 <br>
 1 x Potenciômetro <br>
 
-![image](https://github.com/user-attachments/assets/28db6c97-d511-4f9e-aec6-db219a8403ce) <br>
+![esquema montagem](https://github.com/user-attachments/assets/4e2f8697-deda-4cc3-9e72-c98532141ccc) <br>
+
+
+
 
 # Topicos do MQTT
 MQTT<br>
@@ -34,13 +37,16 @@ void mqttTask( void * pvParameters ) {
  Servidor [Node-RED v3.0.2](https://hub.docker.com/r/nodered/node-red/) <br>
  Servidor [Apache HTTP Server Project](https://httpd.apache.org/download.cgi)<br>
 Com o MQTT_IOT em conjunto com MySQL é possível monitorar a comunicação entre os componentes e também mostrar graficamente os dados para um melhor entendindo para analise como demonstrado a seguir: <br>
-![image](https://github.com/user-attachments/assets/e8f36a88-968a-42e2-90fe-d330dd658485)<br>
-![image](https://github.com/user-attachments/assets/5db60df0-9803-4eae-a947-afcf3f29ae67)<br>
-![image](https://github.com/user-attachments/assets/4e37f229-25a7-46a8-aef0-b0d5657f4e6c)<br>
+
+
+![leitura sensores](https://github.com/user-attachments/assets/bdb49683-46fc-4a63-bbd2-3363b08939ba) <br>
+![graficos](https://github.com/user-attachments/assets/082e59d1-9c6f-4f65-b8de-80ccf1c4a22e) <br>
+![tabela bd](https://github.com/user-attachments/assets/6d06127e-41a6-4948-8d5a-2b9b46274127) <br>
 
 Agora o fluxo Node -RED implementado pode ser obtido neste [Gist](http://3.83.102.68:1880/#flow/80794394386acbb8) , cuja representação na interface da plataforma se parece com a captura da tela: 
-![image](https://github.com/user-attachments/assets/2cfacd97-7d88-4d85-bf6d-d1bd1b648b34)<br>
-![image](https://github.com/user-attachments/assets/86c364ba-f0f0-42d7-a2c0-fe94ca9a1531)<br>
+
+![imagem fluxo nodered](https://github.com/user-attachments/assets/e2febd08-7b3a-41c7-b1e8-33a8a5ae1043) <br>
+
 
 # Simulação do Circuito
 Os circuitos estão simulados na plataforma [Wokwi](https://wokwi.com/) e cada um dos módulos pode ser acessado nos links abaixo:<br>
