@@ -1,0 +1,939 @@
+[
+    {
+        "id": "80794394386acbb8",
+        "type": "tab",
+        "label": "Fluxo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9f2f05b75f45ef8d",
+        "type": "tab",
+        "label": "Fluxo 2",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ee198ec1921a3c10",
+        "type": "mqtt-broker",
+        "name": "MQTTSERVER",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "343812d95167dbfd",
+        "type": "ui_group",
+        "name": "MQTT_IOT",
+        "tab": "6e29d3a784283e89",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6e29d3a784283e89",
+        "type": "ui_tab",
+        "name": "Página Inicial",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e2d7410189f02613",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 50,
+                "sy": 50,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "4bbec6bbf18aaae6",
+        "type": "MySQLdatabase",
+        "name": "sensor",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "sensor",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "a3f2ddbde87e7bc7",
+        "type": "ui_tab",
+        "name": "Graficos",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e0e201e5962bafd8",
+        "type": "ui_group",
+        "name": "Graficos",
+        "tab": "a3f2ddbde87e7bc7",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ee231f953e04be0e",
+        "type": "ui_spacer",
+        "z": "80794394386acbb8",
+        "name": "spacer",
+        "group": "343812d95167dbfd",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9415a775f25ca9fb",
+        "type": "ui_tab",
+        "name": "Tabela",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "53a847445eda98ee",
+        "type": "ui_group",
+        "name": "Tabela",
+        "tab": "9415a775f25ca9fb",
+        "order": 1,
+        "disp": true,
+        "width": "14",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "db7c64ca755a01f6",
+        "type": "mqtt in",
+        "z": "80794394386acbb8",
+        "name": "MQTT Temperatura",
+        "topic": "esp32temperatura",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "ee198ec1921a3c10",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 180,
+        "wires": [
+            [
+                "9d14f1062767bef1"
+            ]
+        ]
+    },
+    {
+        "id": "b0bf12f60265642f",
+        "type": "mqtt in",
+        "z": "80794394386acbb8",
+        "name": "MQTT Umidade",
+        "topic": "esp32umidade",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "ee198ec1921a3c10",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 180,
+        "y": 280,
+        "wires": [
+            [
+                "8999e12c7b77e96e"
+            ]
+        ]
+    },
+    {
+        "id": "9d14f1062767bef1",
+        "type": "ui_gauge",
+        "z": "80794394386acbb8",
+        "name": "",
+        "group": "343812d95167dbfd",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temperatura",
+        "label": "ºC",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 450,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "8999e12c7b77e96e",
+        "type": "ui_gauge",
+        "z": "80794394386acbb8",
+        "name": "",
+        "group": "343812d95167dbfd",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Umidade",
+        "label": "UR",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#b30000",
+            "#00e639",
+            "#3a3ecb"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 420,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "5b2075faf0bb579a",
+        "type": "mqtt in",
+        "z": "80794394386acbb8",
+        "name": "MQTT GAS-FUMAÇA",
+        "topic": "esp32gas",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "ee198ec1921a3c10",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 180,
+        "y": 440,
+        "wires": [
+            [
+                "eec1fac47a55a6b6"
+            ]
+        ]
+    },
+    {
+        "id": "eec1fac47a55a6b6",
+        "type": "ui_gauge",
+        "z": "80794394386acbb8",
+        "name": "",
+        "group": "343812d95167dbfd",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Sensor Gás/Fumaça",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e60000",
+            "#cb3a3a"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 440,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "ee4c551abe70e96c",
+        "type": "mqtt in",
+        "z": "80794394386acbb8",
+        "name": "INSERIR MQTT TEMPERATURA",
+        "topic": "esp32temperatura",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "ee198ec1921a3c10",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 600,
+        "wires": [
+            [
+                "88c25c892bd2872c"
+            ]
+        ]
+    },
+    {
+        "id": "d443e658221830e8",
+        "type": "mqtt in",
+        "z": "80794394386acbb8",
+        "name": "INSERIR MQTT UMIDADE",
+        "topic": "esp32umidade",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "ee198ec1921a3c10",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 660,
+        "wires": [
+            [
+                "88c25c892bd2872c"
+            ]
+        ]
+    },
+    {
+        "id": "0b058c58996c548d",
+        "type": "mqtt in",
+        "z": "80794394386acbb8",
+        "name": "INSERIR MQTT GAS",
+        "topic": "esp32gas",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "ee198ec1921a3c10",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 180,
+        "y": 720,
+        "wires": [
+            [
+                "88c25c892bd2872c"
+            ]
+        ]
+    },
+    {
+        "id": "5e256fe2b132172d",
+        "type": "mysql",
+        "z": "80794394386acbb8",
+        "mydb": "4bbec6bbf18aaae6",
+        "name": "TEMPLOG",
+        "x": 990,
+        "y": 660,
+        "wires": [
+            [
+                "2d0c053f8f401ab7"
+            ]
+        ]
+    },
+    {
+        "id": "ab4b2871b9ba97ee",
+        "type": "function",
+        "z": "80794394386acbb8",
+        "name": "INSERIR BANCO",
+        "func": "var topico1 = msg.payload.esp32temperatura;\nvar topico2 = msg.payload.esp32umidade;\nvar topico3 = msg.payload.esp32gas;\n\n// Montar a query SQL\nvar sql = `INSERT INTO tempLog (temperatura, umidade, gas) VALUES ('${topico1}', '${topico2}', '${topico3}')`;\n\nmsg.topic = sql;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 660,
+        "wires": [
+            [
+                "5e256fe2b132172d"
+            ]
+        ]
+    },
+    {
+        "id": "2d0c053f8f401ab7",
+        "type": "debug",
+        "z": "80794394386acbb8",
+        "name": "debug 4",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "88c25c892bd2872c",
+        "type": "join",
+        "z": "80794394386acbb8",
+        "name": "join",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": true,
+        "timeout": "",
+        "count": "3",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 450,
+        "y": 660,
+        "wires": [
+            [
+                "c82e61cf3383448b"
+            ]
+        ]
+    },
+    {
+        "id": "5e7a319c2e6e0489",
+        "type": "inject",
+        "z": "80794394386acbb8",
+        "name": "tabela",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 80,
+        "y": 820,
+        "wires": [
+            [
+                "fac3c225c317813e"
+            ]
+        ]
+    },
+    {
+        "id": "39dea3341de9d9c2",
+        "type": "mysql",
+        "z": "80794394386acbb8",
+        "mydb": "4bbec6bbf18aaae6",
+        "name": "CONSULTA",
+        "x": 390,
+        "y": 820,
+        "wires": [
+            [
+                "798bc9e9e2099099"
+            ]
+        ]
+    },
+    {
+        "id": "fac3c225c317813e",
+        "type": "function",
+        "z": "80794394386acbb8",
+        "name": "CONSULTA",
+        "func": "var sql = `\n  SELECT \n    id, \n    DATE_FORMAT(CONVERT_TZ(data, 'UTC', 'America/Sao_Paulo'), '%d-%m-%Y %H:%i:%s') AS data_formatada, \n    temperatura, \n    umidade, \n    gas \n  FROM \n    tempLog \n  ORDER BY \n    id DESC \n  LIMIT \n    300;\n`;\nmsg.topic = sql;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 820,
+        "wires": [
+            [
+                "39dea3341de9d9c2"
+            ]
+        ]
+    },
+    {
+        "id": "798bc9e9e2099099",
+        "type": "function",
+        "z": "80794394386acbb8",
+        "name": "Tratar Dados",
+        "func": "msg.payload = msg.payload.map(item => {\n    return {\n        \"id\": item.id,\n        \"data_formatada\": item.data_formatada,\n        \"temperatura\": item.temperatura,\n        \"umidade\": item.umidade,\n        \"gas\": item.gas\n\n    };\n});\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 820,
+        "wires": [
+            [
+                "6a0170c7910ce874"
+            ]
+        ]
+    },
+    {
+        "id": "6a0170c7910ce874",
+        "type": "ui_table",
+        "z": "80794394386acbb8",
+        "group": "53a847445eda98ee",
+        "name": "Tabela",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "columns": [
+            {
+                "field": "id",
+                "title": "ID",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "data_formatada",
+                "title": "Data/Hora",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "temperatura",
+                "title": "Temperatura",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "umidade",
+                "title": "Umidade",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "gas",
+                "title": "Gas",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 730,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "5b289211417c8e3c",
+        "type": "inject",
+        "z": "80794394386acbb8",
+        "name": "grafico_gas",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 90,
+        "y": 900,
+        "wires": [
+            [
+                "12077c2fea86f6ce"
+            ]
+        ]
+    },
+    {
+        "id": "12077c2fea86f6ce",
+        "type": "function",
+        "z": "80794394386acbb8",
+        "name": "CONSULTA",
+        "func": "var sql = `\n  SELECT \n    DATE_FORMAT(CONVERT_TZ(data, 'UTC', 'America/Sao_Paulo'), '%d-%m-%Y %H:%i:%s') AS data_formatada, \n    gas \n  FROM \n    tempLog \n  WHERE \n    data >= CONVERT_TZ(NOW() - INTERVAL 1 DAY, 'UTC', 'America/Sao_Paulo');\n`;\nmsg.topic = sql;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 900,
+        "wires": [
+            [
+                "6f3927c1dbd125d8"
+            ]
+        ]
+    },
+    {
+        "id": "6f3927c1dbd125d8",
+        "type": "mysql",
+        "z": "80794394386acbb8",
+        "mydb": "4bbec6bbf18aaae6",
+        "name": "CONSULTA",
+        "x": 430,
+        "y": 900,
+        "wires": [
+            [
+                "f2ef48cab0d1b7ab"
+            ]
+        ]
+    },
+    {
+        "id": "f2ef48cab0d1b7ab",
+        "type": "function",
+        "z": "80794394386acbb8",
+        "name": "Tratar Dados",
+        "func": "var series = [\"gas\"];\nvar labels = [];\nvar gas = [];\n\n\nmsg.payload.forEach(row => {\n    labels.push(row.data_formatada);  // Adiciona a data ao eixo X\n    gas.push(row.gas);  // Adiciona os dados de temperatura\n    \n});\n\nmsg.payload = [\n    { \"series\": [series[0]], \"data\": [gas], \"labels\": labels },\n   \n];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 900,
+        "wires": [
+            [
+                "8c52e5652618f7ef"
+            ]
+        ]
+    },
+    {
+        "id": "8c52e5652618f7ef",
+        "type": "ui_chart",
+        "z": "80794394386acbb8",
+        "name": "",
+        "group": "e0e201e5962bafd8",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "label": "Sensor Gás",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": true,
+        "useUTC": false,
+        "colors": [
+            "#8e8f90",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 750,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1662d8f61930e658",
+        "type": "inject",
+        "z": "80794394386acbb8",
+        "name": "grafico_temperatura",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 1000,
+        "wires": [
+            [
+                "c4b30d5c53901854"
+            ]
+        ]
+    },
+    {
+        "id": "c4b30d5c53901854",
+        "type": "function",
+        "z": "80794394386acbb8",
+        "name": "CONSULTA",
+        "func": "var sql = `\n  SELECT \n    DATE_FORMAT(CONVERT_TZ(data, 'UTC', 'America/Sao_Paulo'), '%d-%m-%Y %H:%i:%s') AS data_formatada, \n    temperatura \n  FROM \n    tempLog \n  WHERE \n    data >= CONVERT_TZ(NOW() - INTERVAL 1 DAY, 'UTC', 'America/Sao_Paulo');\n`;\nmsg.topic = sql;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 1000,
+        "wires": [
+            [
+                "e5d929dd2f8ec82f"
+            ]
+        ]
+    },
+    {
+        "id": "e5d929dd2f8ec82f",
+        "type": "mysql",
+        "z": "80794394386acbb8",
+        "mydb": "4bbec6bbf18aaae6",
+        "name": "CONSULTA",
+        "x": 490,
+        "y": 1000,
+        "wires": [
+            [
+                "417f7a85f51dc63a"
+            ]
+        ]
+    },
+    {
+        "id": "417f7a85f51dc63a",
+        "type": "function",
+        "z": "80794394386acbb8",
+        "name": "Tratar Dados",
+        "func": "var series = [\"temperatura\"];\nvar labels = [];\nvar temperatura = [];\n\n\nmsg.payload.forEach(row => {\n    labels.push(row.data_formatada);  // Adiciona a data ao eixo X\n    temperatura.push(row.temperatura);  // Adiciona os dados de temperatura\n    \n});\n\nmsg.payload = [\n    { \"series\": [series[0]], \"data\": [temperatura], \"labels\": labels },\n   \n];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 1000,
+        "wires": [
+            [
+                "50a98dc99d5f8b07"
+            ]
+        ]
+    },
+    {
+        "id": "50a98dc99d5f8b07",
+        "type": "ui_chart",
+        "z": "80794394386acbb8",
+        "name": "",
+        "group": "e0e201e5962bafd8",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "label": "Temperatura",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": true,
+        "useUTC": false,
+        "colors": [
+            "#ff0000",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 810,
+        "y": 1000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c82e61cf3383448b",
+        "type": "function",
+        "z": "80794394386acbb8",
+        "name": "FILTRO JOIN",
+        "func": "let ultimaMensagem = flow.get('ultimaMensagem') || {};\nlet topico1 = msg.payload.esp32temperatura;\nlet topico2 = msg.payload.esp32umidade;\nlet topico3 = msg.payload.esp32gas;\n\nif (ultimaMensagem.temperatura === topico1 && ultimaMensagem.umidade === topico2 && ultimaMensagem.gas === topico3) {\n    return null;  // Ignora se a mensagem já foi processada\n} else {\n    flow.set('ultimaMensagem', { temperatura: topico1, umidade: topico2, gas: topico3 });\n    return msg;  // Continua para o nó SQL\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 660,
+        "wires": [
+            [
+                "ab4b2871b9ba97ee"
+            ]
+        ]
+    }
+]
